@@ -35,6 +35,5 @@ def encrypt(input_string, fixed_vector):
 
 if __name__ == "__main__":
     input_string = input("Enter a string to encrypt: ")
-    fixed_vector = "10101010101010101010101010101010" * 10
     encrypted = encrypt(input_string, fixed_vector)
     print("Encrypted Base64:", encrypted)
